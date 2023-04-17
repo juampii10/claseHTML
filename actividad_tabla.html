@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad</title>
+    <style>
+        .div1 {
+            border: 1px solid black;
+            width: 400px;
+            height: 300px;
+        }
+
+        label input {
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <td>Servicios 1</td>
+            <td>Servicios 2</td>
+            <td>Servicios 3</td>
+            <td>Servicios 4</td>
+        </tr>
+        <tr>
+        <td>Costos</td>
+        <td>Producción</td>
+        <td>Diseño y Fotografía</td>
+        <td>Docencia y Educación</td>
+        </tr>
+        <tr>
+            <td>Microfonía</td>
+            <td>Hardware</td>
+            <td>Software</td>
+            <td>BackLine</td>
+        </tr>
+        <tr>
+            <td>Logotipos</td>
+            <td>Cover Art</td>
+            <td>Photoshoot</td>
+            <td>Diseño acústico</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <h2>Actividad</h2>
+    <br><br><br>
+
+
+<center>
+    <table border="2">
+        <tr>
+            <td>Nombre del libro</td>
+            <td>Fecha de publicación</td>
+            <td>Contenido</td>
+            <td>Precio</td>
+        </tr>
+        <tr>
+        <td>El inicio</td>
+        <td>17/4/2023</td>
+        <td>Echaremos un vistazo en las primeras 7 temporadas de Lionel Messi en el Barcelona</td>
+        <td>$450</td>
+        </tr>
+        <tr>
+            <td>Reinado</td>
+            <td>25/4/2023</td>
+            <td>La faceta goleadora de Lionel Messi empezó a salir a la luz, en este libro, remarcaremos sus mejores goles y jugadas entre los años 2010-2015</td>
+            <td>$450</td>
+        </tr>
+        <tr>
+            <td>Problemas</td>
+            <td>29/4/2023</td>
+            <td>Las cosas empeoraban para el club, luego del triplete del 2015, el Barcelona sufriría duras derrotas en la Champions League, lo que desencadenaría una catástrofe</td>
+            <td>$450</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <div class="div1">
+        <form>
+        <center>
+            <label>Nombre: <input type="text" name="nombre" placeholder="Ingrese nombre"></label><br><br>
+            <label>Apellido: <input type="text" name="apellido" placeholder="Ingrese apellido"></label><br><br>
+            <label>Email: <input type="email" name="mail" placeholder="Ingrese su email"></label><br><br>
+            <label for="libros">Libro: </label>
+            <select name="libros" id="libros">
+                <option value="inicio">El inicio</option>
+                <option value="reinado">Reinado</option>
+                <option value="problemas">Problemas</option>
+            </select><br><br>
+            <label>
+                Recibir novedades sobre publicaciones de este escritor
+                <input type="checkbox" name="manana" id="man">
+            </label><br><br>
+            
+            
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </center>
+        </form>
+    </div>
+</center>
+
+</body>
+</html>
