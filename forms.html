@@ -5,19 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .div1 {
+            border: 1px solid black;
+            width: 250px;
+            height: 300px;
+        }
+
+        label input {
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+    </style>
 </head>
 <body>
 
-    <div>
+    <div class="div1">
         <form>
-            <input type="text" name="nombre" id="" placeholder="Ingrese nombre"><br><br>
-            <input type="password" name="contrasena" id="" placeholder="Ingrese contraseña"><br><br>
-            <input type="number" name="edad" id="" placeholder="Ingrese su edad"><br><br>
-            <input type="email" name="mail" id="" placeholder="Ingrese su email"><br><br>
+        <center>
+            <label>Nombre: <input type="text" name="nombre" placeholder="Ingrese nombre"></label><br><br>
+            <label>Apellido: <input type="text" name="apellido" placeholder="Ingrese apellido"></label><br><br>
+            <label>Edad: <input type="number" name="edad" placeholder="Ingrese su edad"></label><br><br>
+            <label>Email: <input type="email" name="mail" placeholder="Ingrese su email"></label><br><br>
+            <label for="localidad">Localidad: </label>
+            <select name="localidad" id="localidad">
+                <option value="st">Santa Teresita</option>
+                <option value="mdt">Mar del Tuyú</option>
+                <option value="mda">Mar de Ajó</option>
+                <option value="lb">Las Toninas</option>
+                <option value="sb">San Bernardo</option>
+            </select><br><br>
+            <label>
+                Seleccione turno <br>
+                Mañana
+                <input type="radio" name="manana" id="man" value="Mañana">
+            </label>
+            <label>
+                Tarde
+                <input type="radio" name="tarde" id="tar" value="Tarde">
+            </label>
+            <label>
+                Vespertino
+                <input type="radio" name="vespertino" id="vesp" value="vespertino">
+            </label><br><br>
             <input type="submit" value="Enviar">
+        </center>
         </form>
     </div>
-
-
 </body>
 </html>
