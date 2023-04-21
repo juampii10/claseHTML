@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: beige;
+}
+
+.inicio {
+    margin-top: 250px;
+}
+
+p {
+    margin-top: 20%;
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: floralwhite;
+}
