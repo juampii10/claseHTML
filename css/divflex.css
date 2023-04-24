@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    
+}
+
+.item1 {
+    background-color: aqua;
+}
+
+.item2 {
+    background-color: brown;
+}
+
+.item3 {
+    background-color: coral;
+}
