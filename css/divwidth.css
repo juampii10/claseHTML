@@ -1,0 +1,22 @@
+div {
+    width: 50%;
+    border: 3px solid #092454;
+    margin: 0px auto;
+    height: 150px;
+}
+
+#item1 {
+    background-color: #e69ef2;
+}
+
+#item2 {
+    background-color: #62d0ff;
+}
+
+#item3 {
+    background-color: #ced5db;
+}
+
+#item4 {
+    background-color: #85e38d;
+}
